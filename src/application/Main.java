@@ -36,6 +36,12 @@ public class Main {
                     captured.add(capturedPiece);
                 }
 
+                if(chessMatch.getPromoted() != null){
+                    System.out.println("Enter a piece for promotion: 'B' (Bishop), 'N' (Knight), 'P' (Pawn), 'Q' (Queen): ");
+                    String type = sc.nextLine();
+                    chessMatch.replacePromotedPiece(type);
+                }
+
             }catch(ChessException e){
                 System.out.println(e.getMessage());
                 sc.nextLine(); // Program waits for "Enter" user input
