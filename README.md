@@ -1,7 +1,7 @@
 # Chess Game in Java
 Repository for Java Chess project
 
-This project is a work-in-progress chess game implemented in Java. It serves as a practice ground for honing Java programming skills and is inspired by Nelio Alves's Udemy Java course.
+This project is a chess game implemented in Java. It serves as a practice ground for honing Java programming skills and is inspired by Nelio Alves's Udemy Java course.
 
 ## Getting Started
 Follow the steps below to set up and run the chess game on your local machine.
@@ -30,7 +30,7 @@ Run the programm in a colorized terminal to see the movements effects in the scr
 Once the game starts, you can use the standard algebraic notation to make moves. For example, to move a pawn from e2 to e4, type e2 press ENTER then type e4 and press ENTER.
 Don't worry the game will notify you of illegal moves and handle the rules of chess.
 
-## Some Features (Some are still being developed)
+## Some Features
 1. Basic board setup
 2. Move validation for all pieces
 3. Capturing opponent pieces
